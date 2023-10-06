@@ -75,10 +75,10 @@ section{
 
 #cabeçalho{
     display:flex;
-    padding-bottom: 15px;
     align-items: center;
     justify-content: center;
     gap: 35px;
+    margin: 12px;
 
 }
 
@@ -88,42 +88,57 @@ section{
     border-radius: 50%;
     transition: background 0.5s;
     display: flex;
-    padding: 6px;
+    padding: 3px;
     align-items: center;
     justify-content: center;
     font-family: 'Major Mono Display', monospace;
 }
+#cabeçalho h2{
+    font-size: medium;
+    bottom: 10px;
+}
 
-#cabeçalho a:hover{
+#cabeçalho h2:hover{
     -webkit-transform: scale(0);
     -ms-transform: scale(0);
     transform: scale(1.1);
     transition: 0.7s;
-    text-shadow: 0px 5px 12px #999999;
+    text-shadow: 0px 5px 12px #ffae0088;
 }
 #cabeçalho h1{
     color: #FFB000;
     font-family: 'Lobster', cursive;
     font-size:45px;
+    margin: 10px;
+    margin-top: 0;
+    margin-bottom: 14px;
 }
-
-#cabeçalho h3 {
-
-   display: flex;
-   position: absolute;
-   right: 0;
-   
-   
+#cabeçalho h3{
+    color: #FFB000;
+    display: flex;
+    position:absolute;
+    right: 80px;
+    top: 30px;
+    font-size: medium;
+    border: solid #FFB000 2px;
+    border-radius: 12%;
+    padding: 5px;
 }
-
+#cabeçalho h3:hover{
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(1.1);
+    transition: 0.5s;
+    text-shadow: 0px 5px 12px #ffae0088;
+}
 #social-links {
     color: #FFB000;
     display: flex;
     position:absolute;
-    left: 45px;
-    top: 22px;
+    left: 70px;
+    top: 40px;
     gap: 7px;
-    font-size: medium;
+    font-size: large;
 }
 #social-links :hover{
     background: rgba(0, 0, 0, 0.227);
@@ -280,10 +295,10 @@ section{
     font-size: 2rem;
 }
 
-.blogs .box-container .box .content p{
+.blogs .box-container .box .content h1{
     font-size: 1.6rem;
     line-height: 1.8;
-    color:#ccc;
+    color:#fffcfc;
     padding:1rem 0;
 }
 
