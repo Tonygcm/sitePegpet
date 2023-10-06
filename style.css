@@ -14,7 +14,6 @@
     box-sizing: border-box;
     outline: none; border:none;
     text-decoration: none;
-    text-transform: capitalize;
     transition: .2s linear;
 }
 
@@ -46,18 +45,6 @@ section{
     padding:2rem 7%;
 }
 
-.heading{
-    text-align: center;
-    color:#fff;
-    text-transform: uppercase;
-    padding-bottom: 3.5rem;
-    font-size: 4rem;
-}
-
-.heading span{
-    color:var(--main-color);
-    text-transform: uppercase;
-}
 
 .btn{
     margin-top: 1rem;
@@ -147,6 +134,33 @@ section{
     padding: 3px;
 }
 
+.home2{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background:url(images/dogs_background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.home2 .content{
+    max-width: 60rem;
+}
+
+.home2 .content h3{
+    font-family: 'Lobster', cursive;
+    font-size: 10rem;
+    color:#fff;
+}
+
+.home2 .content h2{
+    font-family: 'Lobster', cursive;
+    font-size: 34.4px;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding: 0;
+    color:#eee;
+}
 .home{
     min-height: 100vh;
     display: flex;
@@ -162,16 +176,17 @@ section{
 }
 
 .home .content h3{
-    font-size: 6rem;
-    text-transform: uppercase;
+    font-family: 'Lobster', cursive;
+    font-size: 10rem;
     color:#fff;
 }
 
-.home .content p{
-    font-size: 2rem;
+.home .content h2{
+    font-family: 'Lobster', cursive;
+    font-size: 34.4px;
     font-weight: lighter;
     line-height: 1.8;
-    padding:1rem 0;
+    padding: 0;
     color:#eee;
 }
 
@@ -288,11 +303,9 @@ section{
     color:var(--main-color);
 }
 
-.blogs .box-container .box .content span{
-    color:var(--main-color);
-    display: block;
-    padding-top: 1rem;
-    font-size: 2rem;
+.blogs .box-container .box .content P{
+    color: #ccc;
+    font-size: medium;
 }
 
 .blogs .box-container .box .content h1{
