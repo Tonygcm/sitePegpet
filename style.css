@@ -137,28 +137,38 @@ section{
 .home2{
     min-height: 100vh;
     display: flex;
-    align-items: center;
-    background:url(images/dogs_background.jpg) no-repeat;
+    justify-content: center;
+    background:url(images/Absolute_Reality_v16_dogs_playing_with_cats_3.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    
 }
 .home2 .content{
-    max-width: 60rem;
+    max-width: 40rem;
 }
 
 .home2 .content h3{
+    display: flex;
+    justify-content: center;
     font-family: 'Lobster', cursive;
     font-size: 10rem;
     color:#fff;
 }
 
 .home2 .content h2{
+    display: flex;
+    justify-content: center;
     font-family: 'Lobster', cursive;
     font-size: 34.4px;
     font-weight: lighter;
     line-height: 1.8;
     padding: 0;
+    color:#eee;
+}
+.home2 .content p{
+    display: flex;
+    justify-content: flex-start;
+    font-size: medium;
     color:#eee;
 }
 .home{
@@ -316,6 +326,7 @@ section{
 }
 
 .footer{
+    padding: 2;
     background:var(--black);
     text-align: center;
 }

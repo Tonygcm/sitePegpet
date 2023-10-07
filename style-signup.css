@@ -13,7 +13,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background:url(plano\ de\ fundo.jpg) no-repeat ;
+  background:url(images/plano\ de\ fundo.jpg) no-repeat ;
   background-size: cover;
   backdrop-filter:brightness(0.25) opacity(0.75);;
 }
@@ -112,7 +112,7 @@ input[type="text"] {
   
   button:hover[type="acessar"] {
     background-position: 0;
-}
+    }
 
   .divCheck {
     margin: 10px 0 0 5px;
@@ -146,3 +146,4 @@ input[type="text"] {
     font-size:small;
     margin-bottom: 10px;
   }
+  
