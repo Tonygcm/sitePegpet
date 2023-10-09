@@ -133,44 +133,70 @@ section{
     border-radius: 50%;
     padding: 3px;
 }
-
-.home2{
+.home2 {
     min-height: 100vh;
     display: flex;
     justify-content: center;
-    background:url(images/Absolute_Reality_v16_dogs_playing_with_cats_3.jpg) no-repeat;
+    position: relative;
+    
+}
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(images/Absolute_Reality_v16_dogs_playing_with_cats_3.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-    
+    filter: brightness(0.4); 
+    z-index: 0; 
 }
 .home2 .content{
     max-width: 40rem;
+    z-index: 1; 
+    position: relative;
 }
 
 .home2 .content h3{
     display: flex;
-    justify-content: center;
+    position: relative;
+    right: 600px;
+    top: 222px;
     font-family: 'Lobster', cursive;
     font-size: 10rem;
     color:#fff;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    font-weight: bold;
 }
 
 .home2 .content h2{
     display: flex;
-    justify-content: center;
+    position: relative;
+    right: 550px;
+    top: 222px;
     font-family: 'Lobster', cursive;
     font-size: 34.4px;
     font-weight: lighter;
     line-height: 1.8;
     padding: 0;
     color:#eee;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    font-weight: bold;
 }
 .home2 .content p{
+    text-indent: 20px;
+    font-family: 'Lilita One', cursive;
     display: flex;
-    justify-content: flex-start;
-    font-size: medium;
-    color:#eee;
+    position:relative;
+    text-align:center;
+    font-size: 26px;
+    color: #dd9c11;
+    margin: -89px;
+    bottom: 55px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.96);
 }
+
 .home{
     min-height: 100vh;
     display: flex;
