@@ -61,12 +61,17 @@ section{
 }
 
 #cabeçalho{
+    position: fixed;
+    top: 0;
     display:flex;
     align-items: center;
     justify-content: center;
     gap: 35px;
-    margin: 12px;
-
+    height: 85px;
+    width: 100%;
+    left: 0px;
+    background-color: #000000;
+    z-index: 100;
 }
 
 #cabeçalho a{
@@ -185,6 +190,7 @@ section{
     font-weight: bold;
 }
 .home2 .content p{
+    padding-top: 50px;
     text-indent: 20px;
     font-family: 'Lilita One', cursive;
     display: flex;
@@ -192,6 +198,7 @@ section{
     text-align:center;
     font-size: 26px;
     color: #dd9c11;
+    right: 26px;
     margin: -89px;
     bottom: 55px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.96);
@@ -404,4 +411,122 @@ section{
 
 .footer .credit span{
     color:var(--main-color);
+}
+@media screen and (max-width: 740px) {
+    #cabeçalho {
+        height: 60px; /* Ajuste a altura conforme necessário */
+        gap: 15px; /* Ajuste o espaçamento entre os elementos conforme necessário */
+    }
+
+    #cabeçalho h1 {
+        font-size: 30px; /* Reduza o tamanho da fonte conforme necessário */
+        margin: 5px; /* Ajuste as margens conforme necessário */
+    }
+
+    #cabeçalho h3 {
+        right: 20px; /* Ajuste a posição conforme necessário */
+        top: 20px; /* Ajuste a posição conforme necessário */
+        font-size: 16px; /* Reduza o tamanho da fonte conforme necessário */
+    }
+
+    #social-links {
+        left: 20px; /* Ajuste a posição conforme necessário */
+        top: 20px; /* Ajuste a posição conforme necessário */
+        font-size: 24px; /* Reduza o tamanho da fonte conforme necessário */
+    }
+}
+@media screen and (max-width: 550px) {
+    #cabeçalho {
+        height: 60px; /* Ajuste a altura conforme necessário */
+        gap: 15px; /* Ajuste o espaçamento entre os elementos conforme necessário */
+    }
+
+    #cabeçalho h1 {
+        font-size: 30px; /* Reduza o tamanho da fonte conforme necessário */
+        margin: 5px; /* Ajuste as margens conforme necessário */
+    }
+
+    #cabeçalho h3 {
+        right: 20px; /* Ajuste a posição conforme necessário */
+        top: 20px; /* Ajuste a posição conforme necessário */
+        font-size: 13px; /* Reduza o tamanho da fonte conforme necessário */
+    }
+
+    #social-links {
+        display: none;
+    }
+}
+@media screen and (max-width: 400px) {
+    #cabeçalho {
+        height: 60px; /* Ajuste a altura conforme necessário */
+        gap: 15px; /* Ajuste o espaçamento entre os elementos conforme necessário */
+    }
+
+    #cabeçalho h1 {
+        font-size: 30px; /* Reduza o tamanho da fonte conforme necessário */
+        margin: 5px; /* Ajuste as margens conforme necessário */
+    }
+
+    #cabeçalho h3 {
+        right: 20px; /* Ajuste a posição conforme necessário */
+        top: 20px; /* Ajuste a posição conforme necessário */
+        font-size: 10px; /* Reduza o tamanho da fonte conforme necessário */
+    }
+
+    #social-links {
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    .home2 .content {
+        text-align: center;
+    }
+    
+    .home2 .content h3 {
+        padding-top: 30px;
+        justify-content: center;
+        position: static;
+        font-size: auto;
+        text-shadow: none;
+        margin: 0; /* Remova qualquer margem adicional */
+    }
+    
+    .home2 .content h2,
+    .home2 .content p {
+        justify-content: center;
+        position: static;
+        font-size: auto;
+        text-shadow: none;
+        margin: 0; /* Remova qualquer margem adicional */
+    }
+}
+@media screen and (max-width: 1620px) {
+    .home2 .content {
+        text-align: center;
+    }
+    
+    .home2 .content h3{
+        padding-top: 50px;
+        justify-content: center;
+        position: static;
+        font-size: auto;
+        text-shadow: none;
+        margin: 0;
+    }
+    
+    .home2 .content h2{
+        justify-content: center;
+        position: static;
+        font-size: auto;
+        text-shadow: none;
+        margin: 0;
+    }
+
+    .home2 .content p {
+        justify-content: center;
+        position: static;
+        font-size: auto;
+        text-shadow: none;
+        margin: 0;
+    }
 }

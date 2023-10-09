@@ -147,3 +147,8 @@ input[type="text"] {
     margin-bottom: 10px;
   }
   
+  .botao-voltar {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
