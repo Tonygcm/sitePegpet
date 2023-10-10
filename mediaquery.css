@@ -68,3 +68,140 @@
     }
 
 }
+@media screen and (max-width: 740px) {
+    #cabeçalho {
+        height: 60px; 
+        gap: 15px; 
+    }
+
+    #cabeçalho h1 {
+        font-size: 30px; 
+        margin: 5px; 
+    }
+
+    #cabeçalho h3 {
+        right: 20px; 
+        top: 16px; 
+        font-size: 12px; 
+    }
+
+    #social-links {
+        left: 20px; 
+        top: 20px; 
+        font-size: 15px; 
+    }
+}
+@media screen and (max-width: 550px) {
+    #cabeçalho {
+        height: 60px; 
+        gap: 15px;
+    }
+    
+    #cabeçalho h1 {
+        font-size: 30px; 
+        margin: 5px; 
+    }
+
+    #cabeçalho h3 {
+        right: 20px; 
+        top: 16px; 
+        font-size: 13px;
+    }
+
+}
+@media screen and (max-width: 420px) {
+    #cabeçalho {
+        height: 60px; 
+        gap: 15px; 
+    }
+
+    #cabeçalho h1 {
+        font-size: 30px; 
+        margin: 5px; 
+    }
+
+    #cabeçalho h3 {
+        right: 20px; 
+        top: 20px; 
+        font-size: 10px;
+    }
+
+    #social-links {
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    .home2 .content {
+        text-align: center;
+    }
+    
+    .home2 .content h3 {
+        padding-top: 30px;
+        justify-content: center;
+        position: static;
+        font-size: auto;
+        text-shadow: none;
+        margin: 0; 
+    }
+    
+    .home2 .content h2,
+    .home2 .content p {
+        justify-content: center;
+        position: static;
+        font-size: auto;
+        text-shadow: none;
+        margin: 0; 
+    }
+}
+@media screen and (max-width: 1620px) {
+    #cabeçalho h1 {
+        position: relative;
+        left: 17px;
+    }
+    #cabeçalho h2 {
+        position: relative;
+        left: 18px;
+        top: -3px;
+    }
+    .home2 .content {
+        text-align: center;
+    }
+    
+    .home2 .content h3{
+        padding-top: 90px;
+        justify-content: center;
+        position: static;
+        font-size: auto;
+        text-shadow: none;
+        margin: 0;
+    }
+    
+    .home2 .content h2{
+        justify-content: center;
+        position: static;
+        font-size: auto;
+        text-shadow: none;
+        margin: 0;
+    }
+
+    .home2 .content p {
+        justify-content: center;
+        position: static;
+        font-size: auto;
+        text-shadow: none;
+        margin: 0;
+    }
+}
+@media screen and (max-width: 415px){
+    #cabeçalho h1 {
+        position: relative;
+        left: -27px;
+    }
+    #cabeçalho h2 {
+        font-size: small;
+        width: 11px;
+        position: relative;
+        left: -41px;
+        top: 2px;
+    }
+}

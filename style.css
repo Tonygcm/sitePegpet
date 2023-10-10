@@ -110,7 +110,7 @@ section{
     display: flex;
     position:absolute;
     right: 80px;
-    top: 30px;
+    top: 26px;
     font-size: medium;
     border: solid #FFB000 2px;
     border-radius: 12%;
@@ -128,7 +128,7 @@ section{
     display: flex;
     position:absolute;
     left: 70px;
-    top: 40px;
+    top: 35px;
     gap: 7px;
     font-size: large;
 }
@@ -190,7 +190,6 @@ section{
     font-weight: bold;
 }
 .home2 .content p{
-    padding-top: 50px;
     text-indent: 20px;
     font-family: 'Lilita One', cursive;
     display: flex;
@@ -198,9 +197,8 @@ section{
     text-align:center;
     font-size: 26px;
     color: #dd9c11;
-    right: 26px;
-    margin: -89px;
-    bottom: 55px;
+    right: 22px;
+    bottom: 40px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.96);
 }
 
@@ -262,48 +260,6 @@ section{
     color:#ccc;
     padding:1rem 0;
     line-height: 1.8;
-}
-
-.menu .box-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap:1.5rem;
-}
-
-.menu .box-container .box{
-    padding:5rem;
-    text-align: center;
-    border:var(--border);    
-}
-
-.menu .box-container .box img{
-    height: 10rem;
-}
-
-.menu .box-container .box h3{
-    color: #fff;
-    font-size: 2rem;
-    padding:1rem 0;
-}
-
-.menu .box-container .box .price{
-    color: #fff;
-    font-size: 2.5rem;
-    padding:.5rem 0;
-}
-
-.menu .box-container .box .price span{
-    font-size: 1.5rem;
-    text-decoration: line-through;
-    font-weight: lighter;
-}
-
-.menu .box-container .box:hover{
-    background:#fff;
-}
-
-.menu .box-container .box:hover > *{
-    color:var(--black);
 }
 
 .blogs .box-container{
@@ -411,122 +367,4 @@ section{
 
 .footer .credit span{
     color:var(--main-color);
-}
-@media screen and (max-width: 740px) {
-    #cabeçalho {
-        height: 60px; /* Ajuste a altura conforme necessário */
-        gap: 15px; /* Ajuste o espaçamento entre os elementos conforme necessário */
-    }
-
-    #cabeçalho h1 {
-        font-size: 30px; /* Reduza o tamanho da fonte conforme necessário */
-        margin: 5px; /* Ajuste as margens conforme necessário */
-    }
-
-    #cabeçalho h3 {
-        right: 20px; /* Ajuste a posição conforme necessário */
-        top: 20px; /* Ajuste a posição conforme necessário */
-        font-size: 16px; /* Reduza o tamanho da fonte conforme necessário */
-    }
-
-    #social-links {
-        left: 20px; /* Ajuste a posição conforme necessário */
-        top: 20px; /* Ajuste a posição conforme necessário */
-        font-size: 24px; /* Reduza o tamanho da fonte conforme necessário */
-    }
-}
-@media screen and (max-width: 550px) {
-    #cabeçalho {
-        height: 60px; /* Ajuste a altura conforme necessário */
-        gap: 15px; /* Ajuste o espaçamento entre os elementos conforme necessário */
-    }
-
-    #cabeçalho h1 {
-        font-size: 30px; /* Reduza o tamanho da fonte conforme necessário */
-        margin: 5px; /* Ajuste as margens conforme necessário */
-    }
-
-    #cabeçalho h3 {
-        right: 20px; /* Ajuste a posição conforme necessário */
-        top: 20px; /* Ajuste a posição conforme necessário */
-        font-size: 13px; /* Reduza o tamanho da fonte conforme necessário */
-    }
-
-    #social-links {
-        display: none;
-    }
-}
-@media screen and (max-width: 400px) {
-    #cabeçalho {
-        height: 60px; /* Ajuste a altura conforme necessário */
-        gap: 15px; /* Ajuste o espaçamento entre os elementos conforme necessário */
-    }
-
-    #cabeçalho h1 {
-        font-size: 30px; /* Reduza o tamanho da fonte conforme necessário */
-        margin: 5px; /* Ajuste as margens conforme necessário */
-    }
-
-    #cabeçalho h3 {
-        right: 20px; /* Ajuste a posição conforme necessário */
-        top: 20px; /* Ajuste a posição conforme necessário */
-        font-size: 10px; /* Reduza o tamanho da fonte conforme necessário */
-    }
-
-    #social-links {
-        display: none;
-    }
-}
-@media screen and (max-width: 768px) {
-    .home2 .content {
-        text-align: center;
-    }
-    
-    .home2 .content h3 {
-        padding-top: 30px;
-        justify-content: center;
-        position: static;
-        font-size: auto;
-        text-shadow: none;
-        margin: 0; /* Remova qualquer margem adicional */
-    }
-    
-    .home2 .content h2,
-    .home2 .content p {
-        justify-content: center;
-        position: static;
-        font-size: auto;
-        text-shadow: none;
-        margin: 0; /* Remova qualquer margem adicional */
-    }
-}
-@media screen and (max-width: 1620px) {
-    .home2 .content {
-        text-align: center;
-    }
-    
-    .home2 .content h3{
-        padding-top: 50px;
-        justify-content: center;
-        position: static;
-        font-size: auto;
-        text-shadow: none;
-        margin: 0;
-    }
-    
-    .home2 .content h2{
-        justify-content: center;
-        position: static;
-        font-size: auto;
-        text-shadow: none;
-        margin: 0;
-    }
-
-    .home2 .content p {
-        justify-content: center;
-        position: static;
-        font-size: auto;
-        text-shadow: none;
-        margin: 0;
-    }
 }
